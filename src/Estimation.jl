@@ -1,5 +1,5 @@
 module Estimation
 
-# package code goes here
+include("frequency.jl")
 
 end # module
