@@ -8,6 +8,7 @@ A julialang package for DSP related estimation
 
 - Amplitude and Phase Estimation of a Sinusoid (APES) [[Li & Stoica 1996](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=506612)]
 
+![Amplitude Estimation](doc/APES-example.png)
 
 
 ## Frequency Estimation
