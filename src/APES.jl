@@ -13,7 +13,7 @@ J. Li and P. Stoica. An adaptive filtering approach to spectral estimation and s
 Y. Hua, A. Gershman, and Q. Cheng. High-resolution and robust signal processing. Signal Processing and Communications. CRC Press, October 2003.
 
 """ ->
-function apes{T <: FloatingPoint}(y::Array{T}, f::Union(AbstractArray{T}, T); M::Int=Int(length(y)/2), Q::Union(Array{T, 2}, Nothing)=nothing)
+function apes{T <: FloatingPoint}(y::Array{T}, f::Union(AbstractArray{T}, T); M::Int=div(length(y), 2), Q::Union(Array{T, 2}, Nothing)=nothing)
 
     N = length(y)
     L = N - M + 1  # (eqn 3)
