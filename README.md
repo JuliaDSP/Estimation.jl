@@ -6,7 +6,7 @@ A julialang package for DSP related estimation
 
 ## Amplitude Estimation
 
-- Amplitude and Phase Estimation of a Sinusoid (APES) [[Li & Stoica 1996](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=506612)]
+- Amplitude and Phase Estimation of a Sinusoid (APES) [Jian Li, P. Stoica - An Adaptive Filtering Approach to Spectral Estimation and SAR Imaging (1996)](https://ieeexplore.ieee.org/document/506612).
 
 ![Amplitude Estimation](doc/APES-example.png)
 
